@@ -38,7 +38,7 @@ int main(int argc, char** argv) {
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
     
     // Remplir
-    GLfloat vertices[] = { -0.5f, -0.5f, 0.63f, 0.2f, 0.9f, // premier sommet
+    GLfloat vertices[] = { -0.5f, -0.5f, 1.f, 0.0f, 0.0f, // premier sommet
         0.5f, -0.5f, 0.f, 1.f, 0.f, // deuxième sommet
         0.0f, 0.5f, 0.f, 0.f, 1.f // troisième sommet
          };

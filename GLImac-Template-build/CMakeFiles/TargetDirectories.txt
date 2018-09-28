@@ -4,8 +4,12 @@
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/glimac/CMakeFiles/edit_cache.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/glimac/CMakeFiles/glimac.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP1/CMakeFiles/rebuild_cache.dir
+/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir
+/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP1/CMakeFiles/TP1_exo4_quad_draw.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP1/CMakeFiles/TP1_SDLtemplate.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP1/CMakeFiles/edit_cache.dir
+/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP1/CMakeFiles/TP1_exo3_structure_vertex.dir
+/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP1/CMakeFiles/TP1_exo5_circle_draw.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP_template/CMakeFiles/rebuild_cache.dir

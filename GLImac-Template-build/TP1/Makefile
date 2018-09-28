@@ -111,6 +111,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/rule:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/rule
+.PHONY : TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/rule
+
+# Convenience name for target.
+TP1_exo6_circle_ibo_draw: TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/rule
+
+.PHONY : TP1_exo6_circle_ibo_draw
+
+# fast build rule for target.
+TP1_exo6_circle_ibo_draw/fast:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/build.make TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/build
+.PHONY : TP1_exo6_circle_ibo_draw/fast
+
+# Convenience name for target.
+TP1/CMakeFiles/TP1_exo4_quad_draw.dir/rule:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo4_quad_draw.dir/rule
+.PHONY : TP1/CMakeFiles/TP1_exo4_quad_draw.dir/rule
+
+# Convenience name for target.
+TP1_exo4_quad_draw: TP1/CMakeFiles/TP1_exo4_quad_draw.dir/rule
+
+.PHONY : TP1_exo4_quad_draw
+
+# fast build rule for target.
+TP1_exo4_quad_draw/fast:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad_draw.dir/build.make TP1/CMakeFiles/TP1_exo4_quad_draw.dir/build
+.PHONY : TP1_exo4_quad_draw/fast
+
+# Convenience name for target.
 TP1/CMakeFiles/TP1_SDLtemplate.dir/rule:
 	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
@@ -124,6 +154,36 @@ TP1_SDLtemplate: TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
 TP1_SDLtemplate/fast:
 	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/build
 .PHONY : TP1_SDLtemplate/fast
+
+# Convenience name for target.
+TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule
+.PHONY : TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule
+
+# Convenience name for target.
+TP1_exo3_structure_vertex: TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule
+
+.PHONY : TP1_exo3_structure_vertex
+
+# fast build rule for target.
+TP1_exo3_structure_vertex/fast:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build
+.PHONY : TP1_exo3_structure_vertex/fast
+
+# Convenience name for target.
+TP1/CMakeFiles/TP1_exo5_circle_draw.dir/rule:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo5_circle_draw.dir/rule
+.PHONY : TP1/CMakeFiles/TP1_exo5_circle_draw.dir/rule
+
+# Convenience name for target.
+TP1_exo5_circle_draw: TP1/CMakeFiles/TP1_exo5_circle_draw.dir/rule
+
+.PHONY : TP1_exo5_circle_draw
+
+# fast build rule for target.
+TP1_exo5_circle_draw/fast:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo5_circle_draw.dir/build.make TP1/CMakeFiles/TP1_exo5_circle_draw.dir/build
+.PHONY : TP1_exo5_circle_draw/fast
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/rule:
@@ -236,6 +296,114 @@ exo2_triangle_couleurs.cpp.s:
 	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build.make TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/exo2_triangle_couleurs.cpp.s
 .PHONY : exo2_triangle_couleurs.cpp.s
 
+exo3_structure_vertex.o: exo3_structure_vertex.cpp.o
+
+.PHONY : exo3_structure_vertex.o
+
+# target to build an object file
+exo3_structure_vertex.cpp.o:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.cpp.o
+.PHONY : exo3_structure_vertex.cpp.o
+
+exo3_structure_vertex.i: exo3_structure_vertex.cpp.i
+
+.PHONY : exo3_structure_vertex.i
+
+# target to preprocess a source file
+exo3_structure_vertex.cpp.i:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.cpp.i
+.PHONY : exo3_structure_vertex.cpp.i
+
+exo3_structure_vertex.s: exo3_structure_vertex.cpp.s
+
+.PHONY : exo3_structure_vertex.s
+
+# target to generate assembly for a file
+exo3_structure_vertex.cpp.s:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.cpp.s
+.PHONY : exo3_structure_vertex.cpp.s
+
+exo4_quad_draw.o: exo4_quad_draw.cpp.o
+
+.PHONY : exo4_quad_draw.o
+
+# target to build an object file
+exo4_quad_draw.cpp.o:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad_draw.dir/build.make TP1/CMakeFiles/TP1_exo4_quad_draw.dir/exo4_quad_draw.cpp.o
+.PHONY : exo4_quad_draw.cpp.o
+
+exo4_quad_draw.i: exo4_quad_draw.cpp.i
+
+.PHONY : exo4_quad_draw.i
+
+# target to preprocess a source file
+exo4_quad_draw.cpp.i:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad_draw.dir/build.make TP1/CMakeFiles/TP1_exo4_quad_draw.dir/exo4_quad_draw.cpp.i
+.PHONY : exo4_quad_draw.cpp.i
+
+exo4_quad_draw.s: exo4_quad_draw.cpp.s
+
+.PHONY : exo4_quad_draw.s
+
+# target to generate assembly for a file
+exo4_quad_draw.cpp.s:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad_draw.dir/build.make TP1/CMakeFiles/TP1_exo4_quad_draw.dir/exo4_quad_draw.cpp.s
+.PHONY : exo4_quad_draw.cpp.s
+
+exo5_circle_draw.o: exo5_circle_draw.cpp.o
+
+.PHONY : exo5_circle_draw.o
+
+# target to build an object file
+exo5_circle_draw.cpp.o:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo5_circle_draw.dir/build.make TP1/CMakeFiles/TP1_exo5_circle_draw.dir/exo5_circle_draw.cpp.o
+.PHONY : exo5_circle_draw.cpp.o
+
+exo5_circle_draw.i: exo5_circle_draw.cpp.i
+
+.PHONY : exo5_circle_draw.i
+
+# target to preprocess a source file
+exo5_circle_draw.cpp.i:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo5_circle_draw.dir/build.make TP1/CMakeFiles/TP1_exo5_circle_draw.dir/exo5_circle_draw.cpp.i
+.PHONY : exo5_circle_draw.cpp.i
+
+exo5_circle_draw.s: exo5_circle_draw.cpp.s
+
+.PHONY : exo5_circle_draw.s
+
+# target to generate assembly for a file
+exo5_circle_draw.cpp.s:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo5_circle_draw.dir/build.make TP1/CMakeFiles/TP1_exo5_circle_draw.dir/exo5_circle_draw.cpp.s
+.PHONY : exo5_circle_draw.cpp.s
+
+exo6_circle_ibo_draw.o: exo6_circle_ibo_draw.cpp.o
+
+.PHONY : exo6_circle_ibo_draw.o
+
+# target to build an object file
+exo6_circle_ibo_draw.cpp.o:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/build.make TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/exo6_circle_ibo_draw.cpp.o
+.PHONY : exo6_circle_ibo_draw.cpp.o
+
+exo6_circle_ibo_draw.i: exo6_circle_ibo_draw.cpp.i
+
+.PHONY : exo6_circle_ibo_draw.i
+
+# target to preprocess a source file
+exo6_circle_ibo_draw.cpp.i:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/build.make TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/exo6_circle_ibo_draw.cpp.i
+.PHONY : exo6_circle_ibo_draw.cpp.i
+
+exo6_circle_ibo_draw.s: exo6_circle_ibo_draw.cpp.s
+
+.PHONY : exo6_circle_ibo_draw.s
+
+# target to generate assembly for a file
+exo6_circle_ibo_draw.cpp.s:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/build.make TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/exo6_circle_ibo_draw.cpp.s
+.PHONY : exo6_circle_ibo_draw.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,8 +411,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... TP1_exo6_circle_ibo_draw"
+	@echo "... TP1_exo4_quad_draw"
 	@echo "... TP1_SDLtemplate"
 	@echo "... edit_cache"
+	@echo "... TP1_exo3_structure_vertex"
+	@echo "... TP1_exo5_circle_draw"
 	@echo "... TP1_exo1_triangle_blanc"
 	@echo "... TP1_exo2_triangle_couleurs"
 	@echo "... SDLtemplate.o"
@@ -256,6 +428,18 @@ help:
 	@echo "... exo2_triangle_couleurs.o"
 	@echo "... exo2_triangle_couleurs.i"
 	@echo "... exo2_triangle_couleurs.s"
+	@echo "... exo3_structure_vertex.o"
+	@echo "... exo3_structure_vertex.i"
+	@echo "... exo3_structure_vertex.s"
+	@echo "... exo4_quad_draw.o"
+	@echo "... exo4_quad_draw.i"
+	@echo "... exo4_quad_draw.s"
+	@echo "... exo5_circle_draw.o"
+	@echo "... exo5_circle_draw.i"
+	@echo "... exo5_circle_draw.s"
+	@echo "... exo6_circle_ibo_draw.o"
+	@echo "... exo6_circle_ibo_draw.i"
+	@echo "... exo6_circle_ibo_draw.s"
 .PHONY : help
 
 

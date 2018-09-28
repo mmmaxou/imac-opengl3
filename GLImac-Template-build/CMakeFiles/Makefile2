@@ -84,7 +84,7 @@ glimac/preinstall:
 glimac/CMakeFiles/glimac.dir/all:
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/depend
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17 "Built target glimac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=17,18,19,20,21,22,23,24,25 "Built target glimac"
 .PHONY : glimac/CMakeFiles/glimac.dir/all
 
 # Include target in all.
@@ -118,14 +118,22 @@ clean: glimac/CMakeFiles/glimac.dir/clean
 # Directory level rules for directory TP1
 
 # Convenience name for "all" pass in the directory.
+TP1/all: TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/all
+TP1/all: TP1/CMakeFiles/TP1_exo4_quad_draw.dir/all
 TP1/all: TP1/CMakeFiles/TP1_SDLtemplate.dir/all
+TP1/all: TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/all
+TP1/all: TP1/CMakeFiles/TP1_exo5_circle_draw.dir/all
 TP1/all: TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/all
 TP1/all: TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/all
 
 .PHONY : TP1/all
 
 # Convenience name for "clean" pass in the directory.
+TP1/clean: TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/clean
+TP1/clean: TP1/CMakeFiles/TP1_exo4_quad_draw.dir/clean
 TP1/clean: TP1/CMakeFiles/TP1_SDLtemplate.dir/clean
+TP1/clean: TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/clean
+TP1/clean: TP1/CMakeFiles/TP1_exo5_circle_draw.dir/clean
 TP1/clean: TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/clean
 TP1/clean: TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/clean
 
@@ -135,6 +143,80 @@ TP1/clean: TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/clean
 TP1/preinstall:
 
 .PHONY : TP1/preinstall
+
+#=============================================================================
+# Target rules for target TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir
+
+# All Build rule for target.
+TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/build.make TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/depend
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/build.make TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=13,14 "Built target TP1_exo6_circle_ibo_draw"
+.PHONY : TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/all
+
+# Include target in all.
+all: TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/rule
+
+# Convenience name for target.
+TP1_exo6_circle_ibo_draw: TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/rule
+
+.PHONY : TP1_exo6_circle_ibo_draw
+
+# clean rule for target.
+TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/clean:
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/build.make TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/clean
+.PHONY : TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/clean
+
+# clean rule for target.
+clean: TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target TP1/CMakeFiles/TP1_exo4_quad_draw.dir
+
+# All Build rule for target.
+TP1/CMakeFiles/TP1_exo4_quad_draw.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad_draw.dir/build.make TP1/CMakeFiles/TP1_exo4_quad_draw.dir/depend
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad_draw.dir/build.make TP1/CMakeFiles/TP1_exo4_quad_draw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=9,10 "Built target TP1_exo4_quad_draw"
+.PHONY : TP1/CMakeFiles/TP1_exo4_quad_draw.dir/all
+
+# Include target in all.
+all: TP1/CMakeFiles/TP1_exo4_quad_draw.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+TP1/CMakeFiles/TP1_exo4_quad_draw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo4_quad_draw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP1/CMakeFiles/TP1_exo4_quad_draw.dir/rule
+
+# Convenience name for target.
+TP1_exo4_quad_draw: TP1/CMakeFiles/TP1_exo4_quad_draw.dir/rule
+
+.PHONY : TP1_exo4_quad_draw
+
+# clean rule for target.
+TP1/CMakeFiles/TP1_exo4_quad_draw.dir/clean:
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad_draw.dir/build.make TP1/CMakeFiles/TP1_exo4_quad_draw.dir/clean
+.PHONY : TP1/CMakeFiles/TP1_exo4_quad_draw.dir/clean
+
+# clean rule for target.
+clean: TP1/CMakeFiles/TP1_exo4_quad_draw.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target TP1/CMakeFiles/TP1_SDLtemplate.dir
@@ -170,6 +252,80 @@ TP1/CMakeFiles/TP1_SDLtemplate.dir/clean:
 
 # clean rule for target.
 clean: TP1/CMakeFiles/TP1_SDLtemplate.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target TP1/CMakeFiles/TP1_exo3_structure_vertex.dir
+
+# All Build rule for target.
+TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/depend
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=7,8 "Built target TP1_exo3_structure_vertex"
+.PHONY : TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/all
+
+# Include target in all.
+all: TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule
+
+# Convenience name for target.
+TP1_exo3_structure_vertex: TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule
+
+.PHONY : TP1_exo3_structure_vertex
+
+# clean rule for target.
+TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/clean:
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/clean
+.PHONY : TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/clean
+
+# clean rule for target.
+clean: TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target TP1/CMakeFiles/TP1_exo5_circle_draw.dir
+
+# All Build rule for target.
+TP1/CMakeFiles/TP1_exo5_circle_draw.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo5_circle_draw.dir/build.make TP1/CMakeFiles/TP1_exo5_circle_draw.dir/depend
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo5_circle_draw.dir/build.make TP1/CMakeFiles/TP1_exo5_circle_draw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=11,12 "Built target TP1_exo5_circle_draw"
+.PHONY : TP1/CMakeFiles/TP1_exo5_circle_draw.dir/all
+
+# Include target in all.
+all: TP1/CMakeFiles/TP1_exo5_circle_draw.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+TP1/CMakeFiles/TP1_exo5_circle_draw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo5_circle_draw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP1/CMakeFiles/TP1_exo5_circle_draw.dir/rule
+
+# Convenience name for target.
+TP1_exo5_circle_draw: TP1/CMakeFiles/TP1_exo5_circle_draw.dir/rule
+
+.PHONY : TP1_exo5_circle_draw
+
+# clean rule for target.
+TP1/CMakeFiles/TP1_exo5_circle_draw.dir/clean:
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo5_circle_draw.dir/build.make TP1/CMakeFiles/TP1_exo5_circle_draw.dir/clean
+.PHONY : TP1/CMakeFiles/TP1_exo5_circle_draw.dir/clean
+
+# clean rule for target.
+clean: TP1/CMakeFiles/TP1_exo5_circle_draw.dir/clean
 
 .PHONY : clean
 
@@ -272,7 +428,7 @@ TP_template/preinstall:
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/depend
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=7,8 "Built target TP_template_SDLtemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=15,16 "Built target TP_template_SDLtemplate"
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 
 # Include target in all.

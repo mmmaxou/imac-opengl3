@@ -124,6 +124,32 @@ glimac/fast:
 .PHONY : glimac/fast
 
 #=============================================================================
+# Target rules for targets named TP1_exo6_circle_ibo_draw
+
+# Build rule for target.
+TP1_exo6_circle_ibo_draw: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP1_exo6_circle_ibo_draw
+.PHONY : TP1_exo6_circle_ibo_draw
+
+# fast build rule for target.
+TP1_exo6_circle_ibo_draw/fast:
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/build.make TP1/CMakeFiles/TP1_exo6_circle_ibo_draw.dir/build
+.PHONY : TP1_exo6_circle_ibo_draw/fast
+
+#=============================================================================
+# Target rules for targets named TP1_exo4_quad_draw
+
+# Build rule for target.
+TP1_exo4_quad_draw: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP1_exo4_quad_draw
+.PHONY : TP1_exo4_quad_draw
+
+# fast build rule for target.
+TP1_exo4_quad_draw/fast:
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad_draw.dir/build.make TP1/CMakeFiles/TP1_exo4_quad_draw.dir/build
+.PHONY : TP1_exo4_quad_draw/fast
+
+#=============================================================================
 # Target rules for targets named TP1_SDLtemplate
 
 # Build rule for target.
@@ -135,6 +161,32 @@ TP1_SDLtemplate: cmake_check_build_system
 TP1_SDLtemplate/fast:
 	$(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/build
 .PHONY : TP1_SDLtemplate/fast
+
+#=============================================================================
+# Target rules for targets named TP1_exo3_structure_vertex
+
+# Build rule for target.
+TP1_exo3_structure_vertex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP1_exo3_structure_vertex
+.PHONY : TP1_exo3_structure_vertex
+
+# fast build rule for target.
+TP1_exo3_structure_vertex/fast:
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build
+.PHONY : TP1_exo3_structure_vertex/fast
+
+#=============================================================================
+# Target rules for targets named TP1_exo5_circle_draw
+
+# Build rule for target.
+TP1_exo5_circle_draw: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP1_exo5_circle_draw
+.PHONY : TP1_exo5_circle_draw
+
+# fast build rule for target.
+TP1_exo5_circle_draw/fast:
+	$(MAKE) -f TP1/CMakeFiles/TP1_exo5_circle_draw.dir/build.make TP1/CMakeFiles/TP1_exo5_circle_draw.dir/build
+.PHONY : TP1_exo5_circle_draw/fast
 
 #=============================================================================
 # Target rules for targets named TP1_exo1_triangle_blanc
@@ -184,7 +236,11 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... glimac"
+	@echo "... TP1_exo6_circle_ibo_draw"
+	@echo "... TP1_exo4_quad_draw"
 	@echo "... TP1_SDLtemplate"
+	@echo "... TP1_exo3_structure_vertex"
+	@echo "... TP1_exo5_circle_draw"
 	@echo "... TP1_exo1_triangle_blanc"
 	@echo "... TP1_exo2_triangle_couleurs"
 	@echo "... TP_template_SDLtemplate"
