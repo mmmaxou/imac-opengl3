@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/glimac",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/Cone.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/Cone.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/Cone.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/glimac",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/Geometry.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/Geometry.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/Geometry.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/glimac",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/Image.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/Image.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/Image.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/glimac",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/Program.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/Program.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/Program.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/glimac",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/SDLWindowManager.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/SDLWindowManager.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/glimac",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/Shader.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/Shader.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/Shader.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/glimac",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/Sphere.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/Sphere.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/Sphere.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/glimac",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/tiny_obj_loader.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/src/tiny_obj_loader.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/TP1",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP1_exo1_triangle_blanc.dir/exo1_triangle_blanc.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP1/exo1_triangle_blanc.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP1/exo1_triangle_blanc.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/TP1",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP1_exo6_circle_ibo_draw.dir/exo6_circle_ibo_draw.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP1/exo6_circle_ibo_draw.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP1/exo6_circle_ibo_draw.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/TP1",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP1/SDLtemplate.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP1/SDLtemplate.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/TP1",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP1_exo2_triangle_couleurs.dir/exo2_triangle_couleurs.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP1/exo2_triangle_couleurs.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP1/exo2_triangle_couleurs.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/TP1",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP1/exo3_structure_vertex.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP1/exo3_structure_vertex.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/TP1",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP1_exo4_quad_draw.dir/exo4_quad_draw.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP1/exo4_quad_draw.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP1/exo4_quad_draw.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/TP1",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP1_exo5_circle_draw.dir/exo5_circle_draw.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP1/exo5_circle_draw.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP1/exo5_circle_draw.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/TP2",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP2_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP2/exo2_triangleGenerique.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP2/exo2_triangleGenerique.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/TP2",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP2/SDLtemplate.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP2/SDLtemplate.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/TP2",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP2_exo1_shaders.dir/exo1_shaders.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP2/exo1_shaders.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP2/exo1_shaders.cpp"
+},
+{
+  "directory": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/build/TP_template",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/usr/include/SDL -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/glimac/include -I/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.o -c /home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP_template/SDLtemplate.cpp",
+  "file": "/home/mmmaxou/Imac/Synthese-Image/imac-opengl3/GLImac-Template/TP_template/SDLtemplate.cpp"
+}
+]

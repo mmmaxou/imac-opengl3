@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TP1_exo5_circle_draw.dir/exo5_circle_draw.cpp.o  -o TP1_exo5_circle_draw ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lGL -lGLU -lGLEW 
