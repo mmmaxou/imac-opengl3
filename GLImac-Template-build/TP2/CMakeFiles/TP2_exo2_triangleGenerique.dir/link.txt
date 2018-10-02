@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/TP2_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.o  -o TP2_exo2_triangleGenerique ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lGL -lGLU -lGLEW 
+/usr/bin/c++      CMakeFiles/TP2_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.o  -o TP2_exo2_triangleGenerique -rdynamic ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread /usr/lib/x86_64-linux-gnu/libGL.so.1 -lGLEW 

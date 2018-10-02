@@ -32,10 +32,18 @@ mat3 rotate(const float a) {
 void main() {
   vFragColor = aVertexColor;
 
+  /*
   vec2 transformed;
   transformed = (scale(1.2, 1.2) * vec3(aVertexPosition, 1)).xy;
   transformed = (scale(2, 0.5) * vec3(transformed, 1)).xy;
   transformed = (translate(0.5, 0.5) * vec3(transformed, 1)).xy;
   transformed = (rotate(63.) * vec3(transformed, 1)).xy;
+  gl_Position = vec4(transformed, 0, 1);
+*/
+  
+  vec2 transformed;
+  transformed = (translate(0.5, 0) * vec3(aVertexPosition, 1)).xy;
+  transformed = (rotate(.45) * vec3(transformed, 1)).xy;
+  transformed = (scale(0.5, 0.5) * vec3(transformed, 1)).xy;
   gl_Position = vec4(transformed, 0, 1);
 };

@@ -9,6 +9,6 @@ make && ./TP1/TP1_exo5_circle_draw
 make && ./TP1/TP1_exo6_circle_ibo_draw
 
 make && ./TP2/TP2_exo1_shaders
-make && ./TP2/TP2_exo2_triangleGenerique color2D.vs.glsl color2D.fs.glsl
+make && ./TP2/TP2_exo2_triangleGenerique grey2D.vs.glsl grey2D.fs.glsl
 
 # Penser a commenter CMakeLists.txt
