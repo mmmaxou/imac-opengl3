@@ -84,7 +84,7 @@ glimac/preinstall:
 glimac/CMakeFiles/glimac.dir/all:
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/depend
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31 "Built target glimac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33 "Built target glimac"
 .PHONY : glimac/CMakeFiles/glimac.dir/all
 
 # Include target in all.
@@ -407,16 +407,18 @@ clean: TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/clean
 # Directory level rules for directory TP2
 
 # Convenience name for "all" pass in the directory.
-TP2/all: TP2/CMakeFiles/TP2_SDLtemplate.dir/all
 TP2/all: TP2/CMakeFiles/TP2_exo2_triangleGenerique.dir/all
 TP2/all: TP2/CMakeFiles/TP2_exo1_shaders.dir/all
+TP2/all: TP2/CMakeFiles/TP2_SDLtemplate.dir/all
+TP2/all: TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/all
 
 .PHONY : TP2/all
 
 # Convenience name for "clean" pass in the directory.
-TP2/clean: TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
 TP2/clean: TP2/CMakeFiles/TP2_exo2_triangleGenerique.dir/clean
 TP2/clean: TP2/CMakeFiles/TP2_exo1_shaders.dir/clean
+TP2/clean: TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
+TP2/clean: TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/clean
 
 .PHONY : TP2/clean
 
@@ -424,43 +426,6 @@ TP2/clean: TP2/CMakeFiles/TP2_exo1_shaders.dir/clean
 TP2/preinstall:
 
 .PHONY : TP2/preinstall
-
-#=============================================================================
-# Target rules for target TP2/CMakeFiles/TP2_SDLtemplate.dir
-
-# All Build rule for target.
-TP2/CMakeFiles/TP2_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
-	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/depend
-	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=15,16 "Built target TP2_SDLtemplate"
-.PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/all
-
-# Include target in all.
-all: TP2/CMakeFiles/TP2_SDLtemplate.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-TP2/CMakeFiles/TP2_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 11
-	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 0
-.PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
-
-# Convenience name for target.
-TP2_SDLtemplate: TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
-
-.PHONY : TP2_SDLtemplate
-
-# clean rule for target.
-TP2/CMakeFiles/TP2_SDLtemplate.dir/clean:
-	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
-.PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
-
-# clean rule for target.
-clean: TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
-
-.PHONY : clean
 
 #=============================================================================
 # Target rules for target TP2/CMakeFiles/TP2_exo2_triangleGenerique.dir
@@ -537,6 +502,80 @@ clean: TP2/CMakeFiles/TP2_exo1_shaders.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target TP2/CMakeFiles/TP2_SDLtemplate.dir
+
+# All Build rule for target.
+TP2/CMakeFiles/TP2_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/depend
+	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=15,16 "Built target TP2_SDLtemplate"
+.PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/all
+
+# Include target in all.
+all: TP2/CMakeFiles/TP2_SDLtemplate.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+TP2/CMakeFiles/TP2_SDLtemplate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
+
+# Convenience name for target.
+TP2_SDLtemplate: TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
+
+.PHONY : TP2_SDLtemplate
+
+# clean rule for target.
+TP2/CMakeFiles/TP2_SDLtemplate.dir/clean:
+	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
+.PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
+
+# clean rule for target.
+clean: TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target TP2/CMakeFiles/TP2_exo3_mandelbrot.dir
+
+# All Build rule for target.
+TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/depend
+	$(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=21,22 "Built target TP2_exo3_mandelbrot"
+.PHONY : TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/all
+
+# Include target in all.
+all: TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/rule
+
+# Convenience name for target.
+TP2_exo3_mandelbrot: TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/rule
+
+.PHONY : TP2_exo3_mandelbrot
+
+# clean rule for target.
+TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/clean:
+	$(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/clean
+.PHONY : TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/clean
+
+# clean rule for target.
+clean: TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory TP_template
 
 # Convenience name for "all" pass in the directory.
@@ -561,7 +600,7 @@ TP_template/preinstall:
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/depend
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=21,22 "Built target TP_template_SDLtemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=23,24 "Built target TP_template_SDLtemplate"
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 
 # Include target in all.

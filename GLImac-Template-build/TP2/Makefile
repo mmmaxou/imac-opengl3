@@ -111,21 +111,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-TP2/CMakeFiles/TP2_SDLtemplate.dir/rule:
-	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
-.PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
-
-# Convenience name for target.
-TP2_SDLtemplate: TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
-
-.PHONY : TP2_SDLtemplate
-
-# fast build rule for target.
-TP2_SDLtemplate/fast:
-	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
-.PHONY : TP2_SDLtemplate/fast
-
-# Convenience name for target.
 TP2/CMakeFiles/TP2_exo2_triangleGenerique.dir/rule:
 	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo2_triangleGenerique.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_exo2_triangleGenerique.dir/rule
@@ -154,6 +139,36 @@ TP2_exo1_shaders: TP2/CMakeFiles/TP2_exo1_shaders.dir/rule
 TP2_exo1_shaders/fast:
 	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo1_shaders.dir/build.make TP2/CMakeFiles/TP2_exo1_shaders.dir/build
 .PHONY : TP2_exo1_shaders/fast
+
+# Convenience name for target.
+TP2/CMakeFiles/TP2_SDLtemplate.dir/rule:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
+
+# Convenience name for target.
+TP2_SDLtemplate: TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
+
+.PHONY : TP2_SDLtemplate
+
+# fast build rule for target.
+TP2_SDLtemplate/fast:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
+.PHONY : TP2_SDLtemplate/fast
+
+# Convenience name for target.
+TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/rule:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/rule
+
+# Convenience name for target.
+TP2_exo3_mandelbrot: TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/rule
+
+.PHONY : TP2_exo3_mandelbrot
+
+# fast build rule for target.
+TP2_exo3_mandelbrot/fast:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/build
+.PHONY : TP2_exo3_mandelbrot/fast
 
 SDLtemplate.o: SDLtemplate.cpp.o
 
@@ -236,6 +251,33 @@ exo2_triangleGenerique.cpp.s:
 	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo2_triangleGenerique.dir/build.make TP2/CMakeFiles/TP2_exo2_triangleGenerique.dir/exo2_triangleGenerique.cpp.s
 .PHONY : exo2_triangleGenerique.cpp.s
 
+exo3_mandelbrot.o: exo3_mandelbrot.cpp.o
+
+.PHONY : exo3_mandelbrot.o
+
+# target to build an object file
+exo3_mandelbrot.cpp.o:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/exo3_mandelbrot.cpp.o
+.PHONY : exo3_mandelbrot.cpp.o
+
+exo3_mandelbrot.i: exo3_mandelbrot.cpp.i
+
+.PHONY : exo3_mandelbrot.i
+
+# target to preprocess a source file
+exo3_mandelbrot.cpp.i:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/exo3_mandelbrot.cpp.i
+.PHONY : exo3_mandelbrot.cpp.i
+
+exo3_mandelbrot.s: exo3_mandelbrot.cpp.s
+
+.PHONY : exo3_mandelbrot.s
+
+# target to generate assembly for a file
+exo3_mandelbrot.cpp.s:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/exo3_mandelbrot.cpp.s
+.PHONY : exo3_mandelbrot.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,10 +285,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... TP2_SDLtemplate"
-	@echo "... TP2_exo2_triangleGenerique"
 	@echo "... edit_cache"
+	@echo "... TP2_exo2_triangleGenerique"
 	@echo "... TP2_exo1_shaders"
+	@echo "... TP2_SDLtemplate"
+	@echo "... TP2_exo3_mandelbrot"
 	@echo "... SDLtemplate.o"
 	@echo "... SDLtemplate.i"
 	@echo "... SDLtemplate.s"
@@ -256,6 +299,9 @@ help:
 	@echo "... exo2_triangleGenerique.o"
 	@echo "... exo2_triangleGenerique.i"
 	@echo "... exo2_triangleGenerique.s"
+	@echo "... exo3_mandelbrot.o"
+	@echo "... exo3_mandelbrot.i"
+	@echo "... exo3_mandelbrot.s"
 .PHONY : help
 
 

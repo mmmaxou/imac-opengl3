@@ -10,5 +10,7 @@ make && ./TP1/TP1_exo6_circle_ibo_draw
 
 make && ./TP2/TP2_exo1_shaders
 make && ./TP2/TP2_exo2_triangleGenerique grey2D.vs.glsl grey2D.fs.glsl
+cmake ../GLImac-Template && make && ./TP2/TP2_exo2_triangleGenerique procedural.vs.glsl procedural.fs.glsl
+make && ./TP2/TP2_exo3_mandelbrot
 
 # Penser a commenter CMakeLists.txt

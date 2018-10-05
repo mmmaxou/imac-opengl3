@@ -215,19 +215,6 @@ TP1_exo2_triangle_couleurs/fast:
 .PHONY : TP1_exo2_triangle_couleurs/fast
 
 #=============================================================================
-# Target rules for targets named TP2_SDLtemplate
-
-# Build rule for target.
-TP2_SDLtemplate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP2_SDLtemplate
-.PHONY : TP2_SDLtemplate
-
-# fast build rule for target.
-TP2_SDLtemplate/fast:
-	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
-.PHONY : TP2_SDLtemplate/fast
-
-#=============================================================================
 # Target rules for targets named TP2_exo2_triangleGenerique
 
 # Build rule for target.
@@ -252,6 +239,32 @@ TP2_exo1_shaders: cmake_check_build_system
 TP2_exo1_shaders/fast:
 	$(MAKE) -f TP2/CMakeFiles/TP2_exo1_shaders.dir/build.make TP2/CMakeFiles/TP2_exo1_shaders.dir/build
 .PHONY : TP2_exo1_shaders/fast
+
+#=============================================================================
+# Target rules for targets named TP2_SDLtemplate
+
+# Build rule for target.
+TP2_SDLtemplate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_SDLtemplate
+.PHONY : TP2_SDLtemplate
+
+# fast build rule for target.
+TP2_SDLtemplate/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
+.PHONY : TP2_SDLtemplate/fast
+
+#=============================================================================
+# Target rules for targets named TP2_exo3_mandelbrot
+
+# Build rule for target.
+TP2_exo3_mandelbrot: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_exo3_mandelbrot
+.PHONY : TP2_exo3_mandelbrot
+
+# fast build rule for target.
+TP2_exo3_mandelbrot/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/build
+.PHONY : TP2_exo3_mandelbrot/fast
 
 #=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
@@ -282,9 +295,10 @@ help:
 	@echo "... TP1_exo5_circle_draw"
 	@echo "... TP1_exo1_triangle_blanc"
 	@echo "... TP1_exo2_triangle_couleurs"
-	@echo "... TP2_SDLtemplate"
 	@echo "... TP2_exo2_triangleGenerique"
 	@echo "... TP2_exo1_shaders"
+	@echo "... TP2_SDLtemplate"
+	@echo "... TP2_exo3_mandelbrot"
 	@echo "... TP_template_SDLtemplate"
 .PHONY : help
 
