@@ -40,8 +40,10 @@ int main(int argc, char** argv) {
   Program program = loadProgram(
       applicationPath.dirPath() + "shaders/tex2D.vs.glsl",
       applicationPath.dirPath() + "shaders/tex2D.fs.glsl");
-  program.use();  
-
+  program.use();
+  
+  GLint uTimeLocation = glGetUniformLocation(program.getGLId(), "uTime");
+  std::cout << "GL Uniform Location : " << uTimeLocation << std::endl;
   std::cout << "OpenGL Version : " << glGetString(GL_VERSION) << std::endl;
   std::cout << "GLEW Version : " << glewGetString(GLEW_VERSION) << std::endl;
 
@@ -99,13 +101,10 @@ int main(int argc, char** argv) {
   
   glBindBuffer(GL_ARRAY_BUFFER, 0);
   glBindVertexArray(0);
-  // VAO Off
-  
-
-
-
+  // VAO Off 
 
   // Application loop:
+  float time = 0.0f;
   bool done = false;
   while(!done) {
     // Event loop:
@@ -121,6 +120,10 @@ int main(int argc, char** argv) {
      *********************************/
     
     glClear(GL_COLOR_BUFFER_BIT);
+    
+    // Modification du uTime
+    time += 0.01;
+    glUniform1f( uTimeLocation, time);
 
     // Bind du VAO et dessin
     glBindVertexArray(vao);
