@@ -67,6 +67,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP1/CMakeFiles/TP1_exo5_circle_draw.dir/DependInfo.cmake"
   "TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/DependInfo.cmake"
   "TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/DependInfo.cmake"
+  "TP2/CMakeFiles/TP2_exo4.dir/DependInfo.cmake"
   "TP2/CMakeFiles/TP2_exo2_triangleGenerique.dir/DependInfo.cmake"
   "TP2/CMakeFiles/TP2_exo1_shaders.dir/DependInfo.cmake"
   "TP2/CMakeFiles/TP2_SDLtemplate.dir/DependInfo.cmake"

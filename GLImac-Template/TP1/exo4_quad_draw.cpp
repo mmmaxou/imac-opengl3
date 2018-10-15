@@ -74,17 +74,24 @@ int main(int argc, char** argv) {
   glBindBuffer(GL_ARRAY_BUFFER, vbo);
 
   // Remplir
+  const int NB_VERTEX = 12;
   Vertex2DColor vertices[] = {
-    Vertex2DColor(glm::vec2(0.5f, -0.5f), glm::vec3(1.f, 0.f, 0.f)), // Triangle 1
-    Vertex2DColor(glm::vec2(-0.5f, 0.5f), glm::vec3(0.f, 1.f, 0.f)),
-    Vertex2DColor(glm::vec2(0.5f, 0.5f), glm::vec3(0.f, 0.f, 1.f)),
-    Vertex2DColor(glm::vec2(0.5f, -0.5f), glm::vec3(1.f, 0.f, 0.f)), // Triangle 2
-    Vertex2DColor(glm::vec2(-0.5f, 0.5f), glm::vec3(0.f, 1.f, 0.f)),
-    Vertex2DColor(glm::vec2(-0.5f, -0.5f), glm::vec3(0.f, 0.f, 1.f)),
+    Vertex2DColor(glm::vec2(-0.8f, 0.2f), glm::vec3(0.89f, 0.4f, 0.04f)), // Triangle 1
+    Vertex2DColor(glm::vec2(0.8f, 0.2f), glm::vec3(0.89f, 0.4f, 0.04f)),
+    Vertex2DColor(glm::vec2(0.f, -0.8f), glm::vec3(0.92f, 0.37f, 0.12f)),
+    Vertex2DColor(glm::vec2(-0.7f, 0.2f), glm::vec3(0.89f, 0.4f, 0.04f)), // Oreille G
+    Vertex2DColor(glm::vec2(-0.3f, 0.2f), glm::vec3(0.89f, 0.4f, 0.04f)),
+    Vertex2DColor(glm::vec2(-0.5f, 0.5f), glm::vec3(0.92f, 0.37f, 0.12f)),
+    Vertex2DColor(glm::vec2(0.7f, 0.2f), glm::vec3(0.89f, 0.4f, 0.04f)), // Oreille D
+    Vertex2DColor(glm::vec2(0.3f, 0.2f), glm::vec3(0.89f, 0.4f, 0.04f)),
+    Vertex2DColor(glm::vec2(0.5f, 0.5f), glm::vec3(0.92f, 0.37f, 0.12f)),
+    Vertex2DColor(glm::vec2(-0.1f, -0.6f), glm::vec3(0.f, 0.f, 0.f)), // Nez
+    Vertex2DColor(glm::vec2(0.1f, -0.6f), glm::vec3(0.f, 0.f, 0.f)),
+    Vertex2DColor(glm::vec2(0.f, -0.7f), glm::vec3(0.f, 0.f, 0.f)),
   };
 
   // Envoi
-  glBufferData(GL_ARRAY_BUFFER, 6*sizeof(Vertex2DColor), vertices, GL_STATIC_DRAW);
+  glBufferData(GL_ARRAY_BUFFER, NB_VERTEX*sizeof(Vertex2DColor), vertices, GL_STATIC_DRAW);
 
   // Unbind
   glBindBuffer(GL_ARRAY_BUFFER, 0);
@@ -146,7 +153,7 @@ int main(int argc, char** argv) {
 
       // Bind du VAO et dessin
       glBindVertexArray(vao);
-      glDrawArrays(GL_TRIANGLES, 0, 6);
+      glDrawArrays(GL_TRIANGLES, 0, NB_VERTEX);
       glBindVertexArray(0);
 
 

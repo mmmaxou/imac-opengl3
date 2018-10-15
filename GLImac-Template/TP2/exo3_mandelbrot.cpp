@@ -54,7 +54,7 @@ int main(int argc, char** argv) {
                GL_STATIC_DRAW);
   glBindBuffer(GL_ARRAY_BUFFER, 0);
 
-  // Creaton d'un seul VAO
+  // Creation d'un seul VAO
   GLuint vao;
   glGenVertexArrays(1, &vao);
   glBindVertexArray(vao);

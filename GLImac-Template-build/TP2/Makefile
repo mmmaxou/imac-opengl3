@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+TP2/CMakeFiles/TP2_exo4.dir/rule:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo4.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_exo4.dir/rule
+
+# Convenience name for target.
+TP2_exo4: TP2/CMakeFiles/TP2_exo4.dir/rule
+
+.PHONY : TP2_exo4
+
+# fast build rule for target.
+TP2_exo4/fast:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4.dir/build.make TP2/CMakeFiles/TP2_exo4.dir/build
+.PHONY : TP2_exo4/fast
+
+# Convenience name for target.
 TP2/CMakeFiles/TP2_exo2_triangleGenerique.dir/rule:
 	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo2_triangleGenerique.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_exo2_triangleGenerique.dir/rule
@@ -278,6 +293,33 @@ exo3_mandelbrot.cpp.s:
 	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/exo3_mandelbrot.cpp.s
 .PHONY : exo3_mandelbrot.cpp.s
 
+exo4.o: exo4.cpp.o
+
+.PHONY : exo4.o
+
+# target to build an object file
+exo4.cpp.o:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4.dir/build.make TP2/CMakeFiles/TP2_exo4.dir/exo4.cpp.o
+.PHONY : exo4.cpp.o
+
+exo4.i: exo4.cpp.i
+
+.PHONY : exo4.i
+
+# target to preprocess a source file
+exo4.cpp.i:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4.dir/build.make TP2/CMakeFiles/TP2_exo4.dir/exo4.cpp.i
+.PHONY : exo4.cpp.i
+
+exo4.s: exo4.cpp.s
+
+.PHONY : exo4.s
+
+# target to generate assembly for a file
+exo4.cpp.s:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4.dir/build.make TP2/CMakeFiles/TP2_exo4.dir/exo4.cpp.s
+.PHONY : exo4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,6 +328,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... TP2_exo4"
 	@echo "... TP2_exo2_triangleGenerique"
 	@echo "... TP2_exo1_shaders"
 	@echo "... TP2_SDLtemplate"
@@ -302,6 +345,9 @@ help:
 	@echo "... exo3_mandelbrot.o"
 	@echo "... exo3_mandelbrot.i"
 	@echo "... exo3_mandelbrot.s"
+	@echo "... exo4.o"
+	@echo "... exo4.i"
+	@echo "... exo4.s"
 .PHONY : help
 
 
