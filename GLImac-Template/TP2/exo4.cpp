@@ -24,6 +24,30 @@ struct Vertex2DUV {
   };
 };
 
+glm::mat3 translate(const float tx, const float ty) {
+  return glm::mat3(
+    glm::vec3(1, 0, 0),
+    glm::vec3(0, 1, 0),
+    glm::vec3(tx, ty, 1)
+  );
+}
+
+glm::mat3 scale(const float sx, const float sy) {
+  return glm::mat3(
+    glm::vec3(sx, 0, 0),
+    glm::vec3(0, sy, 0),
+    glm::vec3(0, 0, 1)
+  );
+}
+
+glm::mat3 rotate(const float a) {
+  return glm::mat3(
+    glm::vec3(cos(a), sin(a), 0),
+    glm::vec3(-sin(a), cos(a), 0),
+    glm::vec3(0, 0, 1)    
+  );
+}
+
 int main(int argc, char** argv) {
   // Initialize SDL and open a window
   SDLWindowManager windowManager(800, 600, "GLImac");
@@ -42,8 +66,8 @@ int main(int argc, char** argv) {
       applicationPath.dirPath() + "shaders/tex2D.fs.glsl");
   program.use();
   
-  GLint uTimeLocation = glGetUniformLocation(program.getGLId(), "uTime");
-  std::cout << "GL Uniform Location : " << uTimeLocation << std::endl;
+  GLint uModelMatrixLocation = glGetUniformLocation(program.getGLId(), "uModelMatrix");
+  std::cout << "GL Uniform Location : " << uModelMatrixLocation << std::endl;
   std::cout << "OpenGL Version : " << glGetString(GL_VERSION) << std::endl;
   std::cout << "GLEW Version : " << glewGetString(GLEW_VERSION) << std::endl;
 
@@ -122,8 +146,11 @@ int main(int argc, char** argv) {
     glClear(GL_COLOR_BUFFER_BIT);
     
     // Modification du uTime
-    time += 0.01;
-    glUniform1f( uTimeLocation, time);
+    time += 0.02;
+    glUniformMatrix3fv(uModelMatrixLocation, // Location
+                       1, // Count
+                       GL_FALSE,
+                       glm::value_ptr(rotate(time)));
 
     // Bind du VAO et dessin
     glBindVertexArray(vao);
