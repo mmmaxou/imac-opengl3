@@ -67,7 +67,9 @@ int main(int argc, char** argv) {
   program.use();
   
   GLint uModelMatrixLocation = glGetUniformLocation(program.getGLId(), "uModelMatrix");
-  std::cout << "GL Uniform Location : " << uModelMatrixLocation << std::endl;
+  GLint uColorLocation = glGetUniformLocation(program.getGLId(), "uColor");
+  std::cout << "GL Uniform Location Matrix : " << uColorLocation << std::endl;
+  std::cout << "GL Uniform Location Color: " << uColorLocation << std::endl;
   std::cout << "OpenGL Version : " << glGetString(GL_VERSION) << std::endl;
   std::cout << "GLEW Version : " << glewGetString(GLEW_VERSION) << std::endl;
 
@@ -144,21 +146,70 @@ int main(int argc, char** argv) {
      *********************************/
     
     glClear(GL_COLOR_BUFFER_BIT);
-    
-    // Modification du uTime
-    time += 0.02;
-    glUniformMatrix3fv(uModelMatrixLocation, // Location
-                       1, // Count
-                       GL_FALSE,
-                       glm::value_ptr(rotate(time)));
 
     // Bind du VAO et dessin
     glBindVertexArray(vao);
+    
+    // Modification du uTime
+    time += 0.02;
+    glm::mat3 modelMatrix;
+    
+    // Triangle 1
+    modelMatrix = rotate(time) * translate(0.5f, 0.5f) * rotate(-time) * scale(0.25f, 0.25f);
+    glUniformMatrix3fv(uModelMatrixLocation, // Location
+                       1, // Count
+                       GL_FALSE, // Transpose
+                       glm::value_ptr(modelMatrix)); // Value
+    glUniform3fv(uColorLocation, // Location
+                 1, // Count
+                 glm::value_ptr(glm::vec3(0.1f, 0.3f, 0.2f))); // Color
     glDrawArrays(GL_TRIANGLES, 
                  0,
                  vertices.size() * 3);
-    glBindVertexArray(0);
+    
+    // Triangle 2
+    modelMatrix = rotate(time) * translate(-0.5f, 0.5f) * rotate(-time) * scale(0.25f, 0.25f);
+    glUniformMatrix3fv(uModelMatrixLocation, // Location
+                       1, // Count
+                       GL_FALSE, // Transpose
+                       glm::value_ptr(modelMatrix)); // Value
+    glUniform3fv(uColorLocation, // Location
+                 1, // Count
+                 glm::value_ptr(glm::vec3(0.7f, 0.1f, 0.2f))); // Color
+    glDrawArrays(GL_TRIANGLES, 
+                 0,
+                 vertices.size() * 3);
+    
+    // Triangle 3
+    modelMatrix = rotate(time) * translate(0.5f, -0.5f) * rotate(time) * scale(0.25f, 0.25f);
+    glUniformMatrix3fv(uModelMatrixLocation, // Location
+                       1, // Count
+                       GL_FALSE, // Transpose
+                       glm::value_ptr(modelMatrix)); // Value
+    glUniform3fv(uColorLocation, // Location
+                 1, // Count
+                 glm::value_ptr(glm::vec3(0.1f, 0.8f, 0.2f))); // Color
+    glDrawArrays(GL_TRIANGLES, 
+                 0,
+                 vertices.size() * 3);
+    
+    // Triangle 4
+    modelMatrix = rotate(time) * translate(-0.5f, -0.5f) * rotate(time) * scale(0.25f, 0.25f);
+    glUniformMatrix3fv(uModelMatrixLocation, // Location
+                       1, // Count
+                       GL_FALSE, // Transpose
+                       glm::value_ptr(modelMatrix)); // Value
+    glUniform3fv(uColorLocation, // Location
+                 1, // Count
+                 glm::value_ptr(glm::vec3(0.3f, 0.3f, 0.9f))); // Color
+    glDrawArrays(GL_TRIANGLES, 
+                 0,
+                 vertices.size() * 3);
+    
+    
+    
 
+    glBindVertexArray(0);
     // Update the display
     windowManager.swapBuffers();
   }
