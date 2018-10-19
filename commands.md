@@ -19,5 +19,6 @@ cmake ../GLImac-Template && make && ./TP2/TP2_exo4
 cmake ../GLImac-Template && make && ./TP2/TP2_exo5_triangle_texture
 
 make && ./TP6/TP6_exo1_sphere
+make && ./TP6/TP6_exo2_lune
 
 # Penser a commenter CMakeLists.txt

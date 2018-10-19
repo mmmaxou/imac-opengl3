@@ -75,7 +75,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP2/CMakeFiles/TP2_exo1_shaders.dir/DependInfo.cmake"
   "TP2/CMakeFiles/TP2_SDLtemplate.dir/DependInfo.cmake"
   "TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/DependInfo.cmake"
-  "TP6/CMakeFiles/TP6_exo1_sphere.dir/DependInfo.cmake"
   "TP6/CMakeFiles/TP6_SDLtemplate.dir/DependInfo.cmake"
+  "TP6/CMakeFiles/TP6_exo1_sphere.dir/DependInfo.cmake"
+  "TP6/CMakeFiles/TP6_exo2_lune.dir/DependInfo.cmake"
   "TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake"
   )
