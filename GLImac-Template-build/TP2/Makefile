@@ -111,19 +111,34 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-TP2/CMakeFiles/TP2_exo4.dir/rule:
-	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo4.dir/rule
-.PHONY : TP2/CMakeFiles/TP2_exo4.dir/rule
+TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/rule:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/rule
 
 # Convenience name for target.
-TP2_exo4: TP2/CMakeFiles/TP2_exo4.dir/rule
+TP2_exo5_triangle_texture: TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/rule
 
-.PHONY : TP2_exo4
+.PHONY : TP2_exo5_triangle_texture
 
 # fast build rule for target.
-TP2_exo4/fast:
-	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4.dir/build.make TP2/CMakeFiles/TP2_exo4.dir/build
-.PHONY : TP2_exo4/fast
+TP2_exo5_triangle_texture/fast:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/build.make TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/build
+.PHONY : TP2_exo5_triangle_texture/fast
+
+# Convenience name for target.
+TP2/CMakeFiles/TP2_exo4_rotatingTriangles.dir/rule:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo4_rotatingTriangles.dir/rule
+.PHONY : TP2/CMakeFiles/TP2_exo4_rotatingTriangles.dir/rule
+
+# Convenience name for target.
+TP2_exo4_rotatingTriangles: TP2/CMakeFiles/TP2_exo4_rotatingTriangles.dir/rule
+
+.PHONY : TP2_exo4_rotatingTriangles
+
+# fast build rule for target.
+TP2_exo4_rotatingTriangles/fast:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4_rotatingTriangles.dir/build.make TP2/CMakeFiles/TP2_exo4_rotatingTriangles.dir/build
+.PHONY : TP2_exo4_rotatingTriangles/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_exo2_triangleGenerique.dir/rule:
@@ -293,32 +308,59 @@ exo3_mandelbrot.cpp.s:
 	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/exo3_mandelbrot.cpp.s
 .PHONY : exo3_mandelbrot.cpp.s
 
-exo4.o: exo4.cpp.o
+exo4_rotatingTriangles.o: exo4_rotatingTriangles.cpp.o
 
-.PHONY : exo4.o
+.PHONY : exo4_rotatingTriangles.o
 
 # target to build an object file
-exo4.cpp.o:
-	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4.dir/build.make TP2/CMakeFiles/TP2_exo4.dir/exo4.cpp.o
-.PHONY : exo4.cpp.o
+exo4_rotatingTriangles.cpp.o:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4_rotatingTriangles.dir/build.make TP2/CMakeFiles/TP2_exo4_rotatingTriangles.dir/exo4_rotatingTriangles.cpp.o
+.PHONY : exo4_rotatingTriangles.cpp.o
 
-exo4.i: exo4.cpp.i
+exo4_rotatingTriangles.i: exo4_rotatingTriangles.cpp.i
 
-.PHONY : exo4.i
+.PHONY : exo4_rotatingTriangles.i
 
 # target to preprocess a source file
-exo4.cpp.i:
-	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4.dir/build.make TP2/CMakeFiles/TP2_exo4.dir/exo4.cpp.i
-.PHONY : exo4.cpp.i
+exo4_rotatingTriangles.cpp.i:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4_rotatingTriangles.dir/build.make TP2/CMakeFiles/TP2_exo4_rotatingTriangles.dir/exo4_rotatingTriangles.cpp.i
+.PHONY : exo4_rotatingTriangles.cpp.i
 
-exo4.s: exo4.cpp.s
+exo4_rotatingTriangles.s: exo4_rotatingTriangles.cpp.s
 
-.PHONY : exo4.s
+.PHONY : exo4_rotatingTriangles.s
 
 # target to generate assembly for a file
-exo4.cpp.s:
-	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4.dir/build.make TP2/CMakeFiles/TP2_exo4.dir/exo4.cpp.s
-.PHONY : exo4.cpp.s
+exo4_rotatingTriangles.cpp.s:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo4_rotatingTriangles.dir/build.make TP2/CMakeFiles/TP2_exo4_rotatingTriangles.dir/exo4_rotatingTriangles.cpp.s
+.PHONY : exo4_rotatingTriangles.cpp.s
+
+exo5_triangle_texture.o: exo5_triangle_texture.cpp.o
+
+.PHONY : exo5_triangle_texture.o
+
+# target to build an object file
+exo5_triangle_texture.cpp.o:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/build.make TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/exo5_triangle_texture.cpp.o
+.PHONY : exo5_triangle_texture.cpp.o
+
+exo5_triangle_texture.i: exo5_triangle_texture.cpp.i
+
+.PHONY : exo5_triangle_texture.i
+
+# target to preprocess a source file
+exo5_triangle_texture.cpp.i:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/build.make TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/exo5_triangle_texture.cpp.i
+.PHONY : exo5_triangle_texture.cpp.i
+
+exo5_triangle_texture.s: exo5_triangle_texture.cpp.s
+
+.PHONY : exo5_triangle_texture.s
+
+# target to generate assembly for a file
+exo5_triangle_texture.cpp.s:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/build.make TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/exo5_triangle_texture.cpp.s
+.PHONY : exo5_triangle_texture.cpp.s
 
 # Help Target
 help:
@@ -328,7 +370,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... TP2_exo4"
+	@echo "... TP2_exo5_triangle_texture"
+	@echo "... TP2_exo4_rotatingTriangles"
 	@echo "... TP2_exo2_triangleGenerique"
 	@echo "... TP2_exo1_shaders"
 	@echo "... TP2_SDLtemplate"
@@ -345,9 +388,12 @@ help:
 	@echo "... exo3_mandelbrot.o"
 	@echo "... exo3_mandelbrot.i"
 	@echo "... exo3_mandelbrot.s"
-	@echo "... exo4.o"
-	@echo "... exo4.i"
-	@echo "... exo4.s"
+	@echo "... exo4_rotatingTriangles.o"
+	@echo "... exo4_rotatingTriangles.i"
+	@echo "... exo4_rotatingTriangles.s"
+	@echo "... exo5_triangle_texture.o"
+	@echo "... exo5_triangle_texture.i"
+	@echo "... exo5_triangle_texture.s"
 .PHONY : help
 
 

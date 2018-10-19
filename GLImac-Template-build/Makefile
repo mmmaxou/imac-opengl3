@@ -215,17 +215,30 @@ TP1_exo2_triangle_couleurs/fast:
 .PHONY : TP1_exo2_triangle_couleurs/fast
 
 #=============================================================================
-# Target rules for targets named TP2_exo4
+# Target rules for targets named TP2_exo5_triangle_texture
 
 # Build rule for target.
-TP2_exo4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP2_exo4
-.PHONY : TP2_exo4
+TP2_exo5_triangle_texture: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_exo5_triangle_texture
+.PHONY : TP2_exo5_triangle_texture
 
 # fast build rule for target.
-TP2_exo4/fast:
-	$(MAKE) -f TP2/CMakeFiles/TP2_exo4.dir/build.make TP2/CMakeFiles/TP2_exo4.dir/build
-.PHONY : TP2_exo4/fast
+TP2_exo5_triangle_texture/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/build.make TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/build
+.PHONY : TP2_exo5_triangle_texture/fast
+
+#=============================================================================
+# Target rules for targets named TP2_exo4_rotatingTriangles
+
+# Build rule for target.
+TP2_exo4_rotatingTriangles: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_exo4_rotatingTriangles
+.PHONY : TP2_exo4_rotatingTriangles
+
+# fast build rule for target.
+TP2_exo4_rotatingTriangles/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_exo4_rotatingTriangles.dir/build.make TP2/CMakeFiles/TP2_exo4_rotatingTriangles.dir/build
+.PHONY : TP2_exo4_rotatingTriangles/fast
 
 #=============================================================================
 # Target rules for targets named TP2_exo2_triangleGenerique
@@ -308,7 +321,8 @@ help:
 	@echo "... TP1_exo5_circle_draw"
 	@echo "... TP1_exo1_triangle_blanc"
 	@echo "... TP1_exo2_triangle_couleurs"
-	@echo "... TP2_exo4"
+	@echo "... TP2_exo5_triangle_texture"
+	@echo "... TP2_exo4_rotatingTriangles"
 	@echo "... TP2_exo2_triangleGenerique"
 	@echo "... TP2_exo1_shaders"
 	@echo "... TP2_SDLtemplate"

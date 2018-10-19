@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/6im2/mpluchar/OpenGL/GLImac-Template/TP2/exo4.cpp
+/home/6im2/mpluchar/OpenGL/GLImac-Template/TP2/exo4_rotatingTriangles.cpp
 glimac/SDLWindowManager.hpp
 -
 GL/glew.h

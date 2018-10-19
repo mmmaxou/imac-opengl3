@@ -50,7 +50,7 @@ glm::mat3 rotate(const float a) {
 
 int main(int argc, char** argv) {
   // Initialize SDL and open a window
-  SDLWindowManager windowManager(800, 600, "GLImac");
+  SDLWindowManager windowManager(800, 800, "GLImac");
 
   // Initialize glew for OpenGL3+ support
   GLenum glewInitError = glewInit();

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP2/exo3_mandelbroot.cpp" "/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP2/CMakeFiles/TP2_exo3_mandelbroot.dir/exo3_mandelbroot.cpp.o"
+  "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP2/exo5_triangle_texture.cpp" "/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP2/CMakeFiles/TP2_exo5_triangle_texture.dir/exo5_triangle_texture.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

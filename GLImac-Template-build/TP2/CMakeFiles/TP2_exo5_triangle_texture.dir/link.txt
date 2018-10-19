@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/TP2_exo5_triangle_texture.dir/exo5_triangle_texture.cpp.o  -o TP2_exo5_triangle_texture -rdynamic ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread /usr/lib/x86_64-linux-gnu/libGL.so.1 -lGLEW 

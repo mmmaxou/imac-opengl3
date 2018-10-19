@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/6im2/mpluchar/OpenGL/GLImac-Template/TP2/exo3_mandelbroot.cpp
+/home/6im2/mpluchar/OpenGL/GLImac-Template/TP2/exo5_triangle_texture.cpp
 glimac/SDLWindowManager.hpp
 -
 GL/glew.h
@@ -15,16 +15,34 @@ iostream
 -
 cstddef
 -
+vector
+-
+math.h
+-
 glimac/Program.hpp
 -
 glimac/FilePath.hpp
 -
 glimac/glm.hpp
 -
+glimac/Image.hpp
+-
 
 /home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/include/glimac/FilePath.hpp
 string
 -
+
+/home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/include/glimac/Image.hpp
+vector
+-
+memory
+-
+unordered_map
+-
+glm.hpp
+/home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/include/glimac/glm.hpp
+FilePath.hpp
+/home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/include/glimac/FilePath.hpp
 
 /home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/include/glimac/Program.hpp
 GL/glew.h
