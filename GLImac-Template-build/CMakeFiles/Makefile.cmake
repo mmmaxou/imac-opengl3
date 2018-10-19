@@ -14,6 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/CMakeLists.txt"
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP1/CMakeLists.txt"
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP2/CMakeLists.txt"
+  "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP6/CMakeLists.txt"
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP_template/CMakeLists.txt"
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/CMakeLists.txt"
   "/usr/share/cmake-3.7/Modules/CMakeCInformation.cmake"
@@ -54,6 +55,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "glimac/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "TP6/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP_template/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -73,5 +75,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP2/CMakeFiles/TP2_exo1_shaders.dir/DependInfo.cmake"
   "TP2/CMakeFiles/TP2_SDLtemplate.dir/DependInfo.cmake"
   "TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/DependInfo.cmake"
+  "TP6/CMakeFiles/TP6_exo1_sphere.dir/DependInfo.cmake"
+  "TP6/CMakeFiles/TP6_SDLtemplate.dir/DependInfo.cmake"
   "TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake"
   )

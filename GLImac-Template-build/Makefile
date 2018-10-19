@@ -293,6 +293,32 @@ TP2_exo3_mandelbrot/fast:
 .PHONY : TP2_exo3_mandelbrot/fast
 
 #=============================================================================
+# Target rules for targets named TP6_exo1_sphere
+
+# Build rule for target.
+TP6_exo1_sphere: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP6_exo1_sphere
+.PHONY : TP6_exo1_sphere
+
+# fast build rule for target.
+TP6_exo1_sphere/fast:
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo1_sphere.dir/build.make TP6/CMakeFiles/TP6_exo1_sphere.dir/build
+.PHONY : TP6_exo1_sphere/fast
+
+#=============================================================================
+# Target rules for targets named TP6_SDLtemplate
+
+# Build rule for target.
+TP6_SDLtemplate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP6_SDLtemplate
+.PHONY : TP6_SDLtemplate
+
+# fast build rule for target.
+TP6_SDLtemplate/fast:
+	$(MAKE) -f TP6/CMakeFiles/TP6_SDLtemplate.dir/build.make TP6/CMakeFiles/TP6_SDLtemplate.dir/build
+.PHONY : TP6_SDLtemplate/fast
+
+#=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
 
 # Build rule for target.
@@ -327,6 +353,8 @@ help:
 	@echo "... TP2_exo1_shaders"
 	@echo "... TP2_SDLtemplate"
 	@echo "... TP2_exo3_mandelbrot"
+	@echo "... TP6_exo1_sphere"
+	@echo "... TP6_SDLtemplate"
 	@echo "... TP_template_SDLtemplate"
 .PHONY : help
 
