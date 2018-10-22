@@ -84,7 +84,7 @@ glimac/preinstall:
 glimac/CMakeFiles/glimac.dir/all:
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/depend
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43 "Built target glimac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49 "Built target glimac"
 .PHONY : glimac/CMakeFiles/glimac.dir/all
 
 # Include target in all.
@@ -657,15 +657,21 @@ clean: TP2/CMakeFiles/TP2_exo3_mandelbrot.dir/clean
 # Directory level rules for directory TP6
 
 # Convenience name for "all" pass in the directory.
+TP6/all: TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/all
+TP6/all: TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/all
 TP6/all: TP6/CMakeFiles/TP6_SDLtemplate.dir/all
 TP6/all: TP6/CMakeFiles/TP6_exo1_sphere.dir/all
+TP6/all: TP6/CMakeFiles/TP6_exo3_textures.dir/all
 TP6/all: TP6/CMakeFiles/TP6_exo2_lune.dir/all
 
 .PHONY : TP6/all
 
 # Convenience name for "clean" pass in the directory.
+TP6/clean: TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/clean
+TP6/clean: TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/clean
 TP6/clean: TP6/CMakeFiles/TP6_SDLtemplate.dir/clean
 TP6/clean: TP6/CMakeFiles/TP6_exo1_sphere.dir/clean
+TP6/clean: TP6/CMakeFiles/TP6_exo3_textures.dir/clean
 TP6/clean: TP6/CMakeFiles/TP6_exo2_lune.dir/clean
 
 .PHONY : TP6/clean
@@ -674,6 +680,80 @@ TP6/clean: TP6/CMakeFiles/TP6_exo2_lune.dir/clean
 TP6/preinstall:
 
 .PHONY : TP6/preinstall
+
+#=============================================================================
+# Target rules for target TP6/CMakeFiles/TP6_exo4_multi_texturing.dir
+
+# All Build rule for target.
+TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/build.make TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/depend
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/build.make TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=35,36 "Built target TP6_exo4_multi_texturing"
+.PHONY : TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/all
+
+# Include target in all.
+all: TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/rule
+
+# Convenience name for target.
+TP6_exo4_multi_texturing: TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/rule
+
+.PHONY : TP6_exo4_multi_texturing
+
+# clean rule for target.
+TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/clean:
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/build.make TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/clean
+.PHONY : TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/clean
+
+# clean rule for target.
+clean: TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target TP6/CMakeFiles/TP6_exo5_multi_shaders.dir
+
+# All Build rule for target.
+TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/build.make TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/depend
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/build.make TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=37,38 "Built target TP6_exo5_multi_shaders"
+.PHONY : TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/all
+
+# Include target in all.
+all: TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/rule
+
+# Convenience name for target.
+TP6_exo5_multi_shaders: TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/rule
+
+.PHONY : TP6_exo5_multi_shaders
+
+# clean rule for target.
+TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/clean:
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/build.make TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/clean
+.PHONY : TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/clean
+
+# clean rule for target.
+clean: TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target TP6/CMakeFiles/TP6_SDLtemplate.dir
@@ -750,6 +830,43 @@ clean: TP6/CMakeFiles/TP6_exo1_sphere.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target TP6/CMakeFiles/TP6_exo3_textures.dir
+
+# All Build rule for target.
+TP6/CMakeFiles/TP6_exo3_textures.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo3_textures.dir/build.make TP6/CMakeFiles/TP6_exo3_textures.dir/depend
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo3_textures.dir/build.make TP6/CMakeFiles/TP6_exo3_textures.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=33,34 "Built target TP6_exo3_textures"
+.PHONY : TP6/CMakeFiles/TP6_exo3_textures.dir/all
+
+# Include target in all.
+all: TP6/CMakeFiles/TP6_exo3_textures.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+TP6/CMakeFiles/TP6_exo3_textures.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP6/CMakeFiles/TP6_exo3_textures.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP6/CMakeFiles/TP6_exo3_textures.dir/rule
+
+# Convenience name for target.
+TP6_exo3_textures: TP6/CMakeFiles/TP6_exo3_textures.dir/rule
+
+.PHONY : TP6_exo3_textures
+
+# clean rule for target.
+TP6/CMakeFiles/TP6_exo3_textures.dir/clean:
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo3_textures.dir/build.make TP6/CMakeFiles/TP6_exo3_textures.dir/clean
+.PHONY : TP6/CMakeFiles/TP6_exo3_textures.dir/clean
+
+# clean rule for target.
+clean: TP6/CMakeFiles/TP6_exo3_textures.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target TP6/CMakeFiles/TP6_exo2_lune.dir
 
 # All Build rule for target.
@@ -811,7 +928,7 @@ TP_template/preinstall:
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/depend
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=33,34 "Built target TP_template_SDLtemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/6im2/mpluchar/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=39,40 "Built target TP_template_SDLtemplate"
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 
 # Include target in all.

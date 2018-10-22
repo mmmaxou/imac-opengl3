@@ -293,6 +293,32 @@ TP2_exo3_mandelbrot/fast:
 .PHONY : TP2_exo3_mandelbrot/fast
 
 #=============================================================================
+# Target rules for targets named TP6_exo4_multi_texturing
+
+# Build rule for target.
+TP6_exo4_multi_texturing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP6_exo4_multi_texturing
+.PHONY : TP6_exo4_multi_texturing
+
+# fast build rule for target.
+TP6_exo4_multi_texturing/fast:
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/build.make TP6/CMakeFiles/TP6_exo4_multi_texturing.dir/build
+.PHONY : TP6_exo4_multi_texturing/fast
+
+#=============================================================================
+# Target rules for targets named TP6_exo5_multi_shaders
+
+# Build rule for target.
+TP6_exo5_multi_shaders: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP6_exo5_multi_shaders
+.PHONY : TP6_exo5_multi_shaders
+
+# fast build rule for target.
+TP6_exo5_multi_shaders/fast:
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/build.make TP6/CMakeFiles/TP6_exo5_multi_shaders.dir/build
+.PHONY : TP6_exo5_multi_shaders/fast
+
+#=============================================================================
 # Target rules for targets named TP6_SDLtemplate
 
 # Build rule for target.
@@ -317,6 +343,19 @@ TP6_exo1_sphere: cmake_check_build_system
 TP6_exo1_sphere/fast:
 	$(MAKE) -f TP6/CMakeFiles/TP6_exo1_sphere.dir/build.make TP6/CMakeFiles/TP6_exo1_sphere.dir/build
 .PHONY : TP6_exo1_sphere/fast
+
+#=============================================================================
+# Target rules for targets named TP6_exo3_textures
+
+# Build rule for target.
+TP6_exo3_textures: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP6_exo3_textures
+.PHONY : TP6_exo3_textures
+
+# fast build rule for target.
+TP6_exo3_textures/fast:
+	$(MAKE) -f TP6/CMakeFiles/TP6_exo3_textures.dir/build.make TP6/CMakeFiles/TP6_exo3_textures.dir/build
+.PHONY : TP6_exo3_textures/fast
 
 #=============================================================================
 # Target rules for targets named TP6_exo2_lune
@@ -366,8 +405,11 @@ help:
 	@echo "... TP2_exo1_shaders"
 	@echo "... TP2_SDLtemplate"
 	@echo "... TP2_exo3_mandelbrot"
+	@echo "... TP6_exo4_multi_texturing"
+	@echo "... TP6_exo5_multi_shaders"
 	@echo "... TP6_SDLtemplate"
 	@echo "... TP6_exo1_sphere"
+	@echo "... TP6_exo3_textures"
 	@echo "... TP6_exo2_lune"
 	@echo "... TP_template_SDLtemplate"
 .PHONY : help
