@@ -9,6 +9,7 @@
 #include <glimac/glm.hpp> 
 #include <glimac/Image.hpp> 
 #include <glimac/Sphere.hpp> 
+#include <glimac/TrackballCamera.hpp> 
 
 using namespace glimac;
 
@@ -155,9 +156,9 @@ int main(int argc, char** argv) {
                    (float) (WINDOW_WIDTH / WINDOW_HEIGTH), // Ratio de la fenetre
                    0.1f, // Near
                    100.f); // Far
-  MVMatrix = glm::translate(glm::mat4(1.f), glm::vec3(0, 0, -5));
-  NormalMatrix = glm::transpose( glm::inverse( MVMatrix ) );
-  globalMVMatrix = glm::translate(glm::mat4(1.f), glm::vec3(0, 0, -5));
+  
+  /* Création de la camera */
+  TrackballCamera camera;  
   
   /* 12_ Autres lunes */
   std::vector<glm::vec3> rotationAxes;
@@ -231,6 +232,45 @@ int main(int argc, char** argv) {
       if(e.type == SDL_QUIT) {
         done = true; // Leave the loop after this iteration
       }
+      
+      switch(e.type) {
+
+          /* Touche clavier */
+        case SDL_KEYDOWN: 
+          {            
+            float zoom = 1.0f;
+            if (e.key.keysym.sym == SDLK_z 
+                || e.key.keysym.sym == SDLK_UP) {
+              std::cout << "Z or UP pressed" << std::endl;
+              camera.moveFront(zoom);
+            } 
+            else if (e.key.keysym.sym == SDLK_s 
+                       || e.key.keysym.sym == SDLK_DOWN) {
+              std::cout << "S or DOWN pressed" << std::endl;
+              camera.moveFront(-zoom);              
+            }
+          }
+          break;
+          
+          
+        case SDL_MOUSEMOTION: 
+          {
+            float speed = 1.0f;
+            //std::cout << "Mouse move: ";
+            //std::cout << e.motion.xrel << " | " << e.motion.yrel << std::endl;
+            if ( e.motion.xrel != 0 ) {
+              camera.rotateRight( float(e.motion.xrel) * speed);
+            }
+            if ( e.motion.yrel != 0 ) {
+              camera.rotateLeft( float(e.motion.yrel) * speed);
+            }
+            
+          }
+          break;
+
+        default:
+            break;
+      }      
     }
 
     /*********************************
@@ -238,6 +278,10 @@ int main(int argc, char** argv) {
      *********************************/
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glBindVertexArray(vao);
+    
+    /* Calcul de la camera */
+    globalMVMatrix = camera.getViewMatrix();
+    
 
     /* 9_ Envoi des matrices au GPU */
     /* DESSIN DE LA TERRE */
@@ -276,7 +320,6 @@ int main(int argc, char** argv) {
     glBindTexture(GL_TEXTURE_2D, 0); // On enlève les nuages
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D, 0);
-    
     // 11_ Dessin des lunes
     moonProgram.m_Program.use();
     
@@ -286,7 +329,6 @@ int main(int argc, char** argv) {
     glBindTexture(GL_TEXTURE_2D, textures[1]);
     
     glm::mat4 moonMVMatrix;
-    
     for ( int i=0; i<32; i++) {
       /* 11_ Dessin d'une autre lune */      
       moonMVMatrix = glm::rotate(globalMVMatrix, windowManager.getTime(), rotationAxes[i]); // Translation * Rotation     

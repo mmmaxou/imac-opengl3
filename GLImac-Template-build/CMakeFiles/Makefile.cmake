@@ -15,6 +15,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP1/CMakeLists.txt"
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP2/CMakeLists.txt"
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP6/CMakeLists.txt"
+  "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP7/CMakeLists.txt"
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP_template/CMakeLists.txt"
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/CMakeLists.txt"
   "/usr/share/cmake-3.7/Modules/CMakeCInformation.cmake"
@@ -56,6 +57,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "TP1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP2/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP6/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "TP7/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP_template/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -81,5 +83,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP6/CMakeFiles/TP6_exo1_sphere.dir/DependInfo.cmake"
   "TP6/CMakeFiles/TP6_exo3_textures.dir/DependInfo.cmake"
   "TP6/CMakeFiles/TP6_exo2_lune.dir/DependInfo.cmake"
+  "TP7/CMakeFiles/TP7_SDLtemplate.dir/DependInfo.cmake"
+  "TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/DependInfo.cmake"
+  "TP7/CMakeFiles/TP7_exo1_trackball_camera.dir/DependInfo.cmake"
   "TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake"
   )

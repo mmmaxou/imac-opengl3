@@ -20,5 +20,9 @@ cmake ../GLImac-Template && make && ./TP2/TP2_exo5_triangle_texture
 
 make && ./TP6/TP6_exo1_sphere
 make && ./TP6/TP6_exo2_lune
+make && ./TP6/TP6_exo5_multi_shaders
+
+make && ./TP7/TP7_exo1_trackball_camera
+make && ./TP7/TP7_exo2_freefly_camera
 
 # Penser a commenter CMakeLists.txt

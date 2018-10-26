@@ -20,6 +20,10 @@ common.hpp
 string
 -
 
+/home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/include/glimac/FreeflyCamera.hpp
+glm.hpp
+/home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/include/glimac/glm.hpp
+
 /home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/include/glimac/Geometry.hpp
 glm/glm.hpp
 -
@@ -76,6 +80,10 @@ vector
 common.hpp
 /home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/include/glimac/common.hpp
 
+/home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/include/glimac/TrackballCamera.hpp
+glm.hpp
+/home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/include/glimac/glm.hpp
+
 /home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/include/glimac/common.hpp
 GL/glew.h
 -
@@ -107,6 +115,14 @@ glimac/common.hpp
 /home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/src/glimac/common.hpp
 glimac/Cone.hpp
 /home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/src/glimac/Cone.hpp
+
+/home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/src/FreeflyCamera.cpp
+cmath
+-
+glimac/glm.hpp
+-
+glimac/FreeflyCamera.hpp
+/home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/src/glimac/FreeflyCamera.hpp
 
 /home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/src/Geometry.cpp
 glimac/Geometry.hpp
@@ -161,6 +177,12 @@ glimac/common.hpp
 /home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/src/glimac/common.hpp
 glimac/Sphere.hpp
 /home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/src/glimac/Sphere.hpp
+
+/home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/src/TrackballCamera.cpp
+glimac/glm.hpp
+-
+glimac/TrackballCamera.hpp
+/home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/src/glimac/TrackballCamera.hpp
 
 /home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/src/stb_image.h
 stdio.h

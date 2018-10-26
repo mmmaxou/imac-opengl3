@@ -152,6 +152,33 @@ src/Cone.cpp.s:
 	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Cone.cpp.s
 .PHONY : src/Cone.cpp.s
 
+src/FreeflyCamera.o: src/FreeflyCamera.cpp.o
+
+.PHONY : src/FreeflyCamera.o
+
+# target to build an object file
+src/FreeflyCamera.cpp.o:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/FreeflyCamera.cpp.o
+.PHONY : src/FreeflyCamera.cpp.o
+
+src/FreeflyCamera.i: src/FreeflyCamera.cpp.i
+
+.PHONY : src/FreeflyCamera.i
+
+# target to preprocess a source file
+src/FreeflyCamera.cpp.i:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/FreeflyCamera.cpp.i
+.PHONY : src/FreeflyCamera.cpp.i
+
+src/FreeflyCamera.s: src/FreeflyCamera.cpp.s
+
+.PHONY : src/FreeflyCamera.s
+
+# target to generate assembly for a file
+src/FreeflyCamera.cpp.s:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/FreeflyCamera.cpp.s
+.PHONY : src/FreeflyCamera.cpp.s
+
 src/Geometry.o: src/Geometry.cpp.o
 
 .PHONY : src/Geometry.o
@@ -314,6 +341,33 @@ src/Sphere.cpp.s:
 	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.s
 .PHONY : src/Sphere.cpp.s
 
+src/TrackballCamera.o: src/TrackballCamera.cpp.o
+
+.PHONY : src/TrackballCamera.o
+
+# target to build an object file
+src/TrackballCamera.cpp.o:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.o
+.PHONY : src/TrackballCamera.cpp.o
+
+src/TrackballCamera.i: src/TrackballCamera.cpp.i
+
+.PHONY : src/TrackballCamera.i
+
+# target to preprocess a source file
+src/TrackballCamera.cpp.i:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.i
+.PHONY : src/TrackballCamera.cpp.i
+
+src/TrackballCamera.s: src/TrackballCamera.cpp.s
+
+.PHONY : src/TrackballCamera.s
+
+# target to generate assembly for a file
+src/TrackballCamera.cpp.s:
+	cd /home/6im2/mpluchar/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.s
+.PHONY : src/TrackballCamera.cpp.s
+
 src/tiny_obj_loader.o: src/tiny_obj_loader.cpp.o
 
 .PHONY : src/tiny_obj_loader.o
@@ -353,6 +407,9 @@ help:
 	@echo "... src/Cone.o"
 	@echo "... src/Cone.i"
 	@echo "... src/Cone.s"
+	@echo "... src/FreeflyCamera.o"
+	@echo "... src/FreeflyCamera.i"
+	@echo "... src/FreeflyCamera.s"
 	@echo "... src/Geometry.o"
 	@echo "... src/Geometry.i"
 	@echo "... src/Geometry.s"
@@ -371,6 +428,9 @@ help:
 	@echo "... src/Sphere.o"
 	@echo "... src/Sphere.i"
 	@echo "... src/Sphere.s"
+	@echo "... src/TrackballCamera.o"
+	@echo "... src/TrackballCamera.i"
+	@echo "... src/TrackballCamera.s"
 	@echo "... src/tiny_obj_loader.o"
 	@echo "... src/tiny_obj_loader.i"
 	@echo "... src/tiny_obj_loader.s"

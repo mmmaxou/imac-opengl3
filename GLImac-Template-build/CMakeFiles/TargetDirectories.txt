@@ -28,6 +28,11 @@
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP6/CMakeFiles/TP6_exo1_sphere.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP6/CMakeFiles/TP6_exo3_textures.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP6/CMakeFiles/TP6_exo2_lune.dir
+/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP7/CMakeFiles/rebuild_cache.dir
+/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP7/CMakeFiles/TP7_SDLtemplate.dir
+/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP7/CMakeFiles/TP7_exo2_freefly_camera.dir
+/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP7/CMakeFiles/TP7_exo1_trackball_camera.dir
+/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP7/CMakeFiles/edit_cache.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP_template/CMakeFiles/rebuild_cache.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP_template/CMakeFiles/edit_cache.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP_template/CMakeFiles/TP_template_SDLtemplate.dir
