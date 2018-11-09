@@ -33,10 +33,11 @@
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP7/CMakeFiles/TP7_exo2_freefly_camera.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP7/CMakeFiles/TP7_exo1_trackball_camera.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP7/CMakeFiles/edit_cache.dir
-/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP8/CMakeFiles/edit_cache.dir
-/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP8/CMakeFiles/TP8_exo1_directionnal_light.dir
-/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP8/CMakeFiles/rebuild_cache.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP8/CMakeFiles/TP8_SDLtemplate.dir
+/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP8/CMakeFiles/rebuild_cache.dir
+/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP8/CMakeFiles/TP8_exo1_directionnal_light.dir
+/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP8/CMakeFiles/TP8_exo2_point_light.dir
+/home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP8/CMakeFiles/edit_cache.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP_template/CMakeFiles/rebuild_cache.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP_template/CMakeFiles/edit_cache.dir
 /home/6im2/mpluchar/OpenGL/GLImac-Template-build/TP_template/CMakeFiles/TP_template_SDLtemplate.dir
