@@ -16,6 +16,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP2/CMakeLists.txt"
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP6/CMakeLists.txt"
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP7/CMakeLists.txt"
+  "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP8/CMakeLists.txt"
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/TP_template/CMakeLists.txt"
   "/home/6im2/mpluchar/OpenGL/GLImac-Template/glimac/CMakeLists.txt"
   "/usr/share/cmake-3.7/Modules/CMakeCInformation.cmake"
@@ -58,6 +59,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "TP2/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP6/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP7/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "TP8/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP_template/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -86,5 +88,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP7/CMakeFiles/TP7_SDLtemplate.dir/DependInfo.cmake"
   "TP7/CMakeFiles/TP7_exo2_freefly_camera.dir/DependInfo.cmake"
   "TP7/CMakeFiles/TP7_exo1_trackball_camera.dir/DependInfo.cmake"
+  "TP8/CMakeFiles/TP8_exo1_directionnal_light.dir/DependInfo.cmake"
+  "TP8/CMakeFiles/TP8_SDLtemplate.dir/DependInfo.cmake"
   "TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake"
   )
