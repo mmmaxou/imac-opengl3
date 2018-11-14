@@ -301,13 +301,19 @@ int main(int argc, char** argv) {
     /* Calcul de la camera */
     globalVMatrix = camera.getViewMatrix();
     
-
+    /* Calcul de la lumiere */
+    glm::vec4 lightDir4 =  glm::vec4(1.0f, 1.0f, 1.0f, 0.0f);
+    /*
+    lightDir4 = glm::normalize( glm::rotate(glm::mat4(),
+                                            glm::radians(windowManager.getTime()),
+                                            glm::vec3(0, 1.f, 0)) * glm::vec4(1, 1, 1, 1) );
+*/
     /* 9_ Envoi des matrices au GPU */
     /* DESSIN DE LA TERRE */
     earthProgram.m_Program.use();
         
-    glm::mat4 earthMVMatrix = glm::rotate(globalVMatrix, windowManager.getTime(), glm::vec3(0, 1, 0));
-    glm::vec4 lightDir4 = glm::vec4(1.0f, 1.0f, 1.0f, 0.0f) * globalVMatrix;
+    glm::mat4 earthMVMatrix = glm::rotate(globalVMatrix, windowManager.getTime(), glm::vec3(0, 0, 1));
+    lightDir4 = lightDir4 * globalVMatrix;
     glm::vec3 lightDir = glm::vec3(lightDir.x, lightDir.y, lightDir.z);
     
     glUniform1i(earthProgram.uEarthTexture, 0);
